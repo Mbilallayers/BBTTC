@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+.main-vsedc-logo {
+    max-width: 110px;
+    margin-right: 20px;
+    transition: 0.5s ease-in-out;
+}
+.main-bb-logo {
+    max-width: 380px;
+    transition: 0.5s ease-in-out;
+}
+.nav-link {
+    font-size: 20px;
+    color: #fff !important;
+    transition: 0.5s ease-in-out;
+}
+.nav-link:hover {
+    color: #FFF200 !important;
+}
+.theme-btn {
+    padding: 14px 28px;
+    border: none;
+    min-width: 200px;
+    font-size: 20px;
+}
+.btn  {
+    border-radius: 0;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+}
+
+.theme-btn.contact-btn {
+    background: #FFF200;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+    color: #0044C3;
+    margin-left: 20px;
+    
+}
+.theme-btn.contact-btn:hover {
+    background: #0044C3;
+    color: #FFF200;
+}
+.theme-primary-color {
+    color: #0044C3 !important;
+}
+.bg-yellow {
+    background: #FFF200;
+}
+.theme-secondary-color {
+    color: #585C65;
+}
+.theme-text-color {
+    color: #A2A9B0;
+}
+.social_links {
+    margin-top: 20px;
+}
+.social_links img{
+    margin-right: 10px;;
+}
+.footer {
+    background: #E7F3F9;
+    border-bottom: 20px solid #FFF200;
+    padding: 80px 0 70px;
+}
+.footer-title {
+    font-weight: 700;
+font-size: 30px;    font-family: 'Source Sans Pro', sans-serif;
+line-height: 36px;
+color: #0044C3;
+}
+.mt100 {
+    margin-top: 120px;
+}
+.header.show .contact-btn:hover {
+    background: #fff;
+    color: #0044C3;
+}
+.hero-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 62px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.hero-subtitle {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #fff;
+}
+
+p, li {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.quotes {
+    color: #A2A9B0;
+    font-family: 'Roboto', sans-serif;    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.padding {
+    padding: 70px 0;
+}
+
+.header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.5s ease-in-out;
+}
+.header .navbar {
+    transition: .3s ease-in-out;
+}
+.header.show  {
+    box-shadow: 0 -5px 8px;
+    background: #0044C3;
+}
+.header.show .main-vsedc-logo {
+    max-width: 75px;
+}
+.header.show .main-bb-logo {
+    max-width: 350px;
+}
+
+.hero-section {
+    background-image: url(../images/hero-bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+/* about section */
+
+.about-section {
+    color: #585C65;
+}
+.section-title {
+    color: #7690A2;
+}
+
+.about-section .hero-subtitle {
+    color: #585C65;
+}
+
+.about-list li {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    color: #585C65;
+}
+
+.about-list li p {
+    margin-bottom: 0;
+}
+
+.image-box {
+    position: relative;
+    background: #fff;
+}
+.image-box:before {
+    content: "";
+    position: absolute;
+    top: -5%;
+    bottom: 0;
+    z-index: -1;
+    background-color: #FFF200;
+    width: calc(100% - 10%);
+    height: 110%;
+    right: 0;
+    left: 5%;
+}
+/* 
+.grand-opening {
+    max-width: 60%;
+}
+
+.grand-opening-dates {
+    max-width: 60%;
+} */
+
+.tech-box {
+    position: relative;
+    padding: 50px 30px 40px;    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 120px rgba(58, 86, 78, 0.07);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+
+.tech-box:after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    width: 18px;
+    background: #FFF200;
+}
+
+.tech-box .title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.tech-box .subtitle {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.partners-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
