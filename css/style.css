@@ -209,7 +209,7 @@ p, li, .theme-form-group label {
     gap: 15px;
     align-items: center;
     justify-content: flex-start;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     margin-top: 1.5rem;
     color: #585C65;
 }
