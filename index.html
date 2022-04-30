@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BBTTC Landing Page</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="plugins/fullpage/fullpage.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -18,29 +21,31 @@
         <header class="container-fluid header">
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent pt-2 pb-2">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html"><img src="images/VSEDC.png" class="main-vsedc-logo" /><img src="images/BBY_TeenTechCenter_Lockup_Logo_hz_RGB_R 1.png" class="main-bb-logo" /></a>
+                    <div><a class="navbar-brand" href="https://vsedc.org/" target="_blank"><img src="images/VSEDC.png" class="main-vsedc-logo" /></a>
+                        <a class="navbar-brand" href="index.html"><img src="images/BBY_TeenTechCenter_Lockup_Logo_hz_RGB_R 1.png" class="main-bb-logo" /></a></div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        <i class="fa fa-bars"></i>
                     </button>
                     <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                                <a class="nav-link active" aria-current="page" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="upcoming-events.html">Upcoming Events</a>
+                                <a class="nav-link" href="#upcoming">Upcoming Events</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="programs.html">Programs</a>
+                                <a class="nav-link" href="#programs">Programs</a>
                             </li>
                         </ul>
-                        <button class="btn btn-primary theme-btn contact-btn">Get Involved</button>
+                        <a href="#get-involved" class="btn btn-primary theme-btn contact-btn" >Get Involved</a>
                     </div>
                 </div>
             </nav>
         </header>
         <!-- main-section -->
-        <div class="container mt100">
+        <div class="container mt100 mb100">
             <div class="row">
                 <div class="col-lg-6 col-md-6"></div>
                 <div class="col-lg-6 col-md-6">
@@ -55,11 +60,11 @@
     </div>
 
     <!-- about-section -->
-    <div class="about-section padding">
+    <div class="about-section padding" id="about">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-7">
-                    <div class="content-section">
+                    <div class="content-section mb-30-responsive">
                         <h1 class="hero-title mb-3 section-title">About the South L.A. BBTTC</h1>
                         <p class="hero-subtitle mb-2">The South Los Angeles Best Buy Teen Tech Center brings the latest tech to local youth and features:</p>
                         <div class="row">
@@ -90,7 +95,7 @@
     </div>
 
     <!-- grand-opening-section -->
-    <div class="grand-opening-section padding">
+    <div class="grand-opening-section padding" id="upcoming">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -108,7 +113,7 @@
     </div>
 
     <!-- intro-to-beat-section -->
-    <div class="intro-to-beat-section padding">
+    <div class="intro-to-beat-section padding" id="programs">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -116,7 +121,7 @@
                         <h1 class="hero-title section-title">VIP Preview Tour</h1>
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 mb-30-responsive">
                     <div class="image-box">
                         <img src="images/1500-sound-academy 1.png" class="img-fluid" />
                     </div>
@@ -145,19 +150,19 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="tech-box">
+                    <div class="tech-box mb-30-responsive">
                         <h4 class="title theme-primary-color">Tech & Creative Bootcamps</h4>
                         <p class="subtitle theme-secondary-color">Content creation, Music + Film<br> production and more.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="tech-box">
+                    <div class="tech-box mb-30-responsive">
                         <h4 class="title theme-primary-color">College,  Career, & Internships</h4>
                         <p class="subtitle theme-secondary-color">Game changing internships<br> and opportunities</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="tech-box">
+                    <div class="tech-box mb-30-responsive">
                         <h4 class="title theme-primary-color">Entreprenuership</h4>
                         <p class="subtitle theme-secondary-color">Pitch competitions<br> Networking + Mentorship<br> Access to capital</p>
                     </div>
@@ -172,18 +177,104 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-header text-center mb-5">
-                        <h3 class="hero-title section-title font-size-2">Partners</h3>
+                        <h3 class="hero-title section-title font-medium">Partners</h3>
                     </div>
                     <div class="partners-logos">
-                        <img src="images/VSEDC logo 2.png" class="img-fluid" width="112" />
-                        <img src="images/2016_AF_logo_RGB_stacked-966x1024 1.png" class="img-fluid" width="130"  />
-                        <img src="images/New_TheClubhouseNetwork_Logo_RGB_Small 1.png" class="img-fluid" width="340"  />
-                        <img src="images/PledgeLA-1080sq-1 1.png" class="img-fluid" width="200"  />
+                        <a href="https://vsedc.org/" target="_blank"><img src="images/VSEDC logo 2.png" class="img-fluid mb-30-responsive" width="112" /></a>
+                        <a href="https://annenberg.org/" target="_blank"><img src="images/2016_AF_logo_RGB_stacked-966x1024 1.png" class="img-fluid mb-30-responsive" width="130"  /></a>
+                        <a href="https://theclubhousenetwork.org/" target="_blank"><img src="images/New_TheClubhouseNetwork_Logo_RGB_Small 1.png" class="img-fluid mb-30-responsive" width="340"  /></a>
+                        <a href="https://pledgela.org/" target="_blank"><img src="images/PledgeLA-1080sq-1 1.png" class="img-fluid mb-30-responsive" width="200"  /></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- joining-section -->
+    <div class="joining-section padding" id="get-involved">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="joining-content padding">
+                        <div class="section-header text-center mb-5 pl-50 pr-50">
+                            <h3 class="hero-title section-title font-medium theme-primary-color mb-4">Interested in Joining?</h3>
+                            <p class="theme-secondary-color">The South LA Best Buy Teen Tech Center is finally open and summer classes begin July 2022. <br />
+                                Please sign up now to become a member and access phenomenal in-person programming! <br /><br />
+                                South LA BBTTC presents: #The Gen Wealth Movement   |   Building Generational Wealth through Technology & Multimedia<br />
+                                Powered by Annenberg Tech Foundation in partnership with MISLA/MARTY<br /><br />
+                                
+                                FREE In-person  Classes   •  July  - Sep 2022 <br /><br />
+                                South LA Robotics Presents Champbots Competition    |   Facebook/Meta EFTW (Engineer For The Week)<br />
+                                Real Estate 100 + Financial Literacy    |    Code Like A Boss    |   UX/UI    |    Content Creation
+                                </p>
+                        </div>
+                        <div class="section-header text-center mb-5 pl-50 pr-50">
+                            <h3 class="hero-title section-title font-medium theme-primary-color mb-4">Get Down With Us!</h3>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRswt7SIoenESQhEnOLXDQZAaCR-Rbtokn_bTYO-vToxkgew/viewform" target="_blank">
+                                    <div class="sign-up-box">
+                                        <img src="images/MEMBER.png" alt="member" class="img-fluid" />
+                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRswt7SIoenESQhEnOLXDQZAaCR-Rbtokn_bTYO-vToxkgew/viewform" target="_blank" class="theme-primary-color"><span>Member <i class="fas fa-angle-right"></i></span></a>
+                                        <h3 class="theme-primary-color">Sign up</h3>
+                                    </div>
+                                </a>
+                                </div>
+                                <div class="col-md-3">
+                                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_kjUb9T-dRjXp0KKN3qFabb7nGMibMbuoM2Wxk1RP0czFMg/viewform" target="_blank">
+                                    <div class="sign-up-box">
+                                        <img src="images/mentor.png" alt="member" class="img-fluid" />
+                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_kjUb9T-dRjXp0KKN3qFabb7nGMibMbuoM2Wxk1RP0czFMg/viewform" target="_blank" class="theme-primary-color"><span>Mentor <i class="fas fa-angle-right"></i></span></a>
+                                        <h3 class="theme-primary-color">Sign up</h3>
+                                    </div>
+                                </a>
+                                </div>
+                                <div class="col-md-3">
+                                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqRuv3w4NQoD3b51oKXQMdUHEVKzUPB5atc-7v0O_ERxdq2g/viewform" target="_blank">
+                                    <div class="sign-up-box">
+                                        <img src="images/partner.png" alt="member" class="img-fluid" />
+                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqRuv3w4NQoD3b51oKXQMdUHEVKzUPB5atc-7v0O_ERxdq2g/viewform" target="_blank" class="theme-primary-color"><span>Partner <i class="fas fa-angle-right"></i></span></a>
+                                        <h3 class="theme-primary-color">Sign up</h3>
+                                    </div>
+                                </a>
+                                </div>
+                                <div class="col-md-3">
+                                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOrLYz-ZkU5HLj1ak__xjghvm4p2XG6lsvLThLlu9QtEP0BA/viewform" target="_blank" class="theme-primary-color">
+                                    <div class="sign-up-box">
+                                        <img src="images/educator.png" alt="member" class="img-fluid" />
+                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOrLYz-ZkU5HLj1ak__xjghvm4p2XG6lsvLThLlu9QtEP0BA/viewform" target="_blank" class="theme-primary-color"><span>Educator <i class="fas fa-angle-right"></i></span></a>
+                                        <h3 class="theme-primary-color">Sign up</h3>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-header text-center newsletter-section pl-50 pr-50">
+                            <h3 class="hero-title section-title font-medium theme-primary-color mb-4"><img src="images/subscribe-icon.png" /><span class="bg-yellow theme-primary-color">Subscribe</span> to the South L.A. BBTTC Newsletter</h3>
+                            <form name="contactForm" method="POST" data-netlify="true">
+                                <div class="row  text-left">
+                                    <div class="col-md-6">
+                                        <div class="form-group theme-form-group mb-30-responsive">
+                                            <label for="name" class="mb-2">Name</label>
+                                            <input type="text" class="form-control input-field" placeholder="Enter your name" id="name" name="name" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group theme-form-group mb-30-responsive">
+                                            <label for="email" class="mb-2">Email</label>
+                                            <input type="email" class="form-control input-field" placeholder="Enter your email" id="email" name="email" required />
+                                        </div>
+                                    </div>
+                                </div>
+                                <input type="submit" value="Subscribe" name="submit" class="btn btn-primary theme-btn mb-3 mt-4"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -192,15 +283,15 @@
                     <p class="social_links">
                         <a href="https://www.facebook.com/Southlatech/" target="_blank"><img src="images/fb.png" alt="FB" width="35"></a>
                         <a href="https://www.instagram.com/southlatech/" target="_blank"><img src="images/insta.png" alt="FB" width="35"></a>
-                        <a href="#" target="_blank"><img src="images/twitter.png" alt="FB" width="35"></a>
+                        <!-- <a href="#" target="_blank"><img src="images/twitter.png" alt="FB" width="35"></a> -->
                     </p>
                 </div>
                 <div class="col-md-9">
                     <div class="partners-logos">
-                        <img src="images/VSEDC logo 2.png" class="img-fluid" width="100" />
-                        <img src="images/BestBuy_Logo.png" class="img-fluid" width="130"  />
-                        <img src="images/2016_AF_logo_RGB_stacked-966x1024 1.png" class="img-fluid" width="105"  />
-                        <img src="images/New_TheClubhouseNetwork_Logo_RGB_Small 1.png" class="img-fluid" width="260"  />
+                        <a href="https://vsedc.org/" target="_blank"></a><img src="images/VSEDC logo 2.png" class="img-fluid" width="100" /></a>
+                        <a href="index.html" target="_blank"></a><img src="images/BestBuy_Logo.png" class="img-fluid" width="130"  /></a>
+                        <a href="https://annenberg.org/" target="_blank"><img src="images/2016_AF_logo_RGB_stacked-966x1024 1.png" class="img-fluid" width="105"  /></a>
+                        <a href="https://theclubhousenetwork.org/" target="_blank"></a><img src="images/New_TheClubhouseNetwork_Logo_RGB_Small 1.png" class="img-fluid" width="260"  /></a>
                     </div>
                 </div>
             </div>
@@ -211,6 +302,7 @@
     <script type="text/javascript" src="js/jquery-3.6.0.slim.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="plugins/fullpage/fullpage.js"></script>
     <script>
         var header = $(".header");
         $(window).scroll(function() {

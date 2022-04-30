@@ -75,6 +75,12 @@ color: #0044C3;
 .mt100 {
     margin-top: 120px;
 }
+.mb100 {
+    margin-bottom: 120px;
+}
+.font-medium {
+    font-size: 32px !important;
+}
 .header.show .contact-btn:hover {
     background: #fff;
     color: #0044C3;
@@ -96,15 +102,50 @@ color: #0044C3;
     line-height: 35px;
     color: #fff;
 }
+.sign-up-box {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* gap: 5px; */
+}
 
-p, li {
+.sign-up-box img {
+    max-width: 140px;
+}
+.sign-up-box h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sign-up-box a {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sign-up-box a i {
+    margin-left: 5px;
+}
+.text-left {
+    text-align: left!important;
+}
+p, li, .theme-form-group label {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
 }
-
+.theme-form-group .input-field {
+    padding: 15px 24px;
+    font-size: 20px;
+}
+.newsletter-section .hero-title img {
+    max-width: 60px;
+    margin-right: 10px;
+}
 .quotes {
     color: #A2A9B0;
     font-family: 'Roboto', sans-serif;    font-style: normal;
@@ -242,6 +283,91 @@ p, li {
     gap: 10px;
     flex-wrap: wrap;
 }
+
+.joining-content {
+    position: relative;
+    background: #E7F3F9;
+}
+.pl-50 {
+    padding-left: 80px;
+}
+.pr-50 {padding-right: 80px;}
+.joining-content::before {
+    content: "";
+    position: absolute;
+    /* left: 2px; */
+    /* bottom: 0; */
+    top: 0;
+    height: 18px;
+    width: 100%;
+    background: #FFF200;
+}
+
+.joining-content::after {
+    content: "";
+    position: absolute;
+    /* left: 2px; */
+    /* bottom: 0; */
+    bottom: 0;
+    height: 18px;
+    width: 100%;
+    background: #FFF200;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .header {
+
+    }
+    .main-vsedc-logo {
+        display: none;
+    }
+    .navbar-brand:first-child {display: none}
+    .main-bb-logo,.header.show .main-bb-logo {
+        max-width: 270px;
+    }
+    .navbar-light .navbar-toggler {
+        border: 1px solid #fff;
+    }
+    .navbar-light .navbar-toggler i {
+        color: #fff;
+    }
+    .navbar-light .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-collapse {
+        padding: 20px;
+        transition: 0.5s ease-in-out;
+        background: #0044C3;
+    }
+    .navbar-collapse.show {background: #0044C3}
+    .theme-btn.contact-btn {
+        margin-left: 0;
+    }
+    .hero-title {
+        font-size: 42px;
+        line-height: 110%;
+    }
+    .hero-subtitle {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .mb-30-responsive {
+        margin-bottom: 30px;
+    }
+    .padding {
+        padding: 40px 0;
+    }
+    .pr-50 {padding-right: 25px;}
+    .pl-50 {padding-left: 25px;}
+    .footer .partners-logos {
+        justify-content: flex-start;
+        gap: 20px;
+    }
+}
+
 
 
 
