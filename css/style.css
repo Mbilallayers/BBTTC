@@ -317,8 +317,8 @@ p, li, .theme-form-group label {
 
 
 @media screen and (max-width: 767px) {
-    .header {
-
+    .hero-section {
+background-image: url(../images/mob-hero-bg.png);
     }
     .main-vsedc-logo {
         display: none;
