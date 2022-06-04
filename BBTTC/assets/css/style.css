@@ -90,6 +90,9 @@ Author:
     font-size: 3rem;
     line-height: 4rem;
 }
+.bootcamps-subtitle {
+  font-size: 2rem;
+}
 @media (min-width: 767px) {
   .btn + .btn {
     margin-left: 22px; } }
