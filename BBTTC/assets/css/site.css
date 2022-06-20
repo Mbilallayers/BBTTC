@@ -13397,7 +13397,10 @@ footer .negative-margin {
       font-weight: 700; }
       .blog-tiltle_block h4 a {
         font-size: 20px;
-        text-decoration: none; }
+        text-decoration: none;color: #000; }
+        .blog-tiltle_block h4 a:hover {
+            color: #0347c4;
+        }
     .blog-tiltle_block h6 a {
       padding-right: 15px;
       padding-left: 15px;
@@ -13414,7 +13417,10 @@ footer .negative-margin {
     .blog-tiltle_block a {
       font-size: 13px;
       text-decoration: underline;
-      font-weight: 700; }
+      font-weight: 700;color: #000; }
+      .blog-tiltle_block a:hover {
+        color: #0347c4;
+      }
   
   .blog-icons {
     border-top: 1px solid #e3eaef;
