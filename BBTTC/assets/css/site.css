@@ -13369,8 +13369,11 @@ footer .negative-margin {
    ============================================================== */
    .blog-wrap {
     padding: 98px 0; }
-  
+  .blog-img {
+    text-align: center;
+  }
   .blog-img_block {
+    /* text-align: center; */
     position: relative; }
     .blog-img_block img {
       padding-left: 40px; }
