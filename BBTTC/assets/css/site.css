@@ -12,6 +12,9 @@
         margin-left: auto
     }
 }
+.heading-title {
+    font-size: 1.875rem !important;
+}
 .brand-color {
     color: #fff202;
 }
